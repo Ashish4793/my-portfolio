@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.navbar-toggler{
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.head1{
+  font-weight: 600;
+}
+.head2{
+  font-weight: 700;
+  color: rgb(31, 31, 216);
+}
+#about-me{
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+}
+/* .abme{
+  font-weight: 500;
+  font-size: 2rem;
+} */
+.about{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+
+/* CSS for the skills section */
+#skills {
+  text-align: center; /* Center align the skills section */
+}
+
+.skills-container {
+  display: flex; /* Display skills in a row */
+  flex-wrap: wrap; /* Wrap skills to the next line if there's not enough space */
+  justify-content: center; /* Center align skills horizontally */
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the skills container */
+}
+
+.skill {
+  text-align: center; /* Center align each skill */
+  margin: 15px; /* Add spacing between skills */
+  flex: 1; /* Distribute available space equally among skills in a row */
+}
+
+.skill img {
+  width: 80px;
+  height: 80px;
+}
+
+.skill p {
+  margin-top: 5px; /* Add spacing between the image and the text */
+  font-weight: 600; /* Make the text bold */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+.card{
+  border-radius: 20px;
+}
+
+.card-img-top{
+  height: 250px;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.card-title{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.readmore-btn{
+  text-decoration: none;
+}
+
+.pb{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.techusedDiv{
+  margin-bottom: 15px;
+}
+.techused{
+  margin: 7px;
+}
+
+
+#contact{
+  background-color: black;
+  color: white;
+}
+
+.social-icon{
+  margin: 15px;
+}
+
+.copyright{
+  margin: 1rem;
+}
+
+.env{
+  margin-right: 10px;
+}
+
+.rounded-circle{
+  border: solid 1px;
+}
+
+@media screen and (min-width: 702px) {
+  .about{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+
+    word-wrap: break-word !important;
+    width: 700px !important; 
+    margin: 0 auto;
+  }
+
+}
+
