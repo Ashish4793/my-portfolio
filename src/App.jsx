@@ -51,7 +51,7 @@ function App() {
   <li>Fully working payment gateway integration.</li>
   <li>Hosted on AWS EC2 and AWS S3 is used to store invoices.</li>
 </ul>
-<a target='blank' style={{color : 'black'}} href="https://eazybus.site">Website Link 🔗</a>
+<a target='_blank' rel='noreferrer' style={{color : 'black'}} href="https://eazybus.site">Website Link 🔗</a>
       </div>
     </div>
   </div>
@@ -73,8 +73,8 @@ function App() {
   <li>JavaScript</li>
   <li>Bootstrap</li>
   <li>React.js</li>
-  <li><a target='blank' className='readmore-btn' href="https://www.omdbapi.com/">OMDb API</a></li>
-  <li><a target='blank' className='readmore-btn' href="https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/details">Streaming Availability API</a></li>
+  <li><a target='_blank' rel='noreferrer' className='readmore-btn' href="https://www.omdbapi.com/">OMDb API</a></li>
+  <li><a target='_blank' rel='noreferrer' className='readmore-btn' href="https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/details">Streaming Availability API</a></li>
 
 </ul>
 <h5 className='mb-3'>Functionalities ⚙️</h5>
@@ -83,7 +83,7 @@ function App() {
   <li>Users can view the streaming availability of a particular movie or tv show.</li>
   <li>Users can also get other information such as Release Year, Genre, Cast, IMDb Ratings, Number of Seasons(Tv Shows).</li>
 </ul>
-<a target='blank' style={{color : 'black'}} href="https://streamscan.netlify.app/">Website Link 🔗</a>
+<a target='_blank' rel='noreferrer' style={{color : 'black'}} href="https://streamscan.netlify.app/">Website Link 🔗</a>
       </div>
     </div>
   </div>
@@ -110,7 +110,7 @@ function App() {
   <li>MongoDB</li>
   <li>jQuery</li>
   <li>Passport.js</li>
-  <li><a target='blank' className='readmore-btn' href="https://gnews.io/">GNews API</a></li>
+  <li><a target='_blank' rel='noreferrer' className='readmore-btn' href="https://gnews.io/">GNews API</a></li>
 </ul>
 <h5 className='mb-3'>Functionalities ⚙️</h5>
 <ul>
@@ -122,7 +122,7 @@ function App() {
   <li>Multiple Language Support</li>
   <li>Multiple Countries Support</li>
 </ul>
-<a target='blank' style={{color : 'black'}} href="https://news-app.cyclic.app/">Website Link 🔗</a>
+<a target='_blank' rel='noreferrer' style={{color : 'black'}} href="https://news-app.cyclic.app/">Website Link 🔗</a>
       </div>
     </div>
   </div>
@@ -193,8 +193,8 @@ function App() {
                     <img className='techused' alt='razorpay' src='../assets/img/razorpay-color.svg' width='40'></img>
 
                   </div>
-                <a target='blank' href="https://eazybus.site"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
-                <a target='blank' href="https://github.com/Ashish4793/eazybus"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
+                <a target='_blank' rel='noreferrer' href="https://eazybus.site"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
+                <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793/eazybus"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
                 </div>
 
               </div>
@@ -218,8 +218,8 @@ function App() {
                     <img className='techused' alt='react' src='../assets/img/react.svg' width='30'></img>
 
                   </div>
-                <a target='blank' href="https://streamscan.netlify.app/"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
-                <a target='blank' href="https://github.com/Ashish4793/streamscan"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
+                <a target='_blank' rel='noreferrer' href="https://streamscan.netlify.app/"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
+                <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793/streamscan"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
                 </div>
 
               </div>
@@ -245,8 +245,8 @@ function App() {
                     <img className='techused' alt='passportjs' src='../assets/img/passport-color.svg' width='30'></img>
 
                   </div>
-                <a target='blank' href="https://news-app.cyclic.app/"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
-                <a target='blank' href="https://github.com/Ashish4793/news-app/"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
+                <a target='_blank' rel='noreferrer' href="https://news-app.cyclic.app/"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
+                <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793/news-app/"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
                 </div>
 
               </div>
@@ -274,8 +274,8 @@ function App() {
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">The Complete 2023 Web Development Bootcamp</h5>
           <div className='text-center'>
-          <a target='blank' href="../assets/img/certificate/udemy.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='blank' href="https://www.udemy.com/certificate/UC-73073573-4878-4375-adee-21e3a305ac33/"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
+          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/udemy.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
+          <a target='_blank' rel='noreferrer' href="https://www.udemy.com/certificate/UC-73073573-4878-4375-adee-21e3a305ac33/"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
           </div>
          
         </div>
@@ -289,8 +289,8 @@ function App() {
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">HTML, CSS, and Javascript for Web Developers</h5>
           <div className='text-center'>
-          <a target='blank' href="../assets/img/certificate/coursera.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='blank' href="https://www.coursera.org/account/accomplishments/verify/82JV8JFF3MF7"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
+          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/coursera.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
+          <a target='_blank' rel='noreferrer' href="https://www.coursera.org/account/accomplishments/verify/82JV8JFF3MF7"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
           </div>
          
         </div>
@@ -304,8 +304,8 @@ function App() {
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Problem Solving - Basic</h5>
           <div className='text-center'>
-          <a target='blank' href="../assets/img/certificate/hackerRank.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='blank' href="https://www.hackerrank.com/certificates/f55ada9e1e1b"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
+          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/hackerRank.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
+          <a target='_blank' rel='noreferrer' href="https://www.hackerrank.com/certificates/f55ada9e1e1b"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
           </div>
          
         </div>
@@ -319,8 +319,8 @@ function App() {
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Introduction to Computer Science and Programming Using Python</h5>
           <div className='text-center'>
-          <a target='blank' href="../assets/img/certificate/mit.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='blank' href="https://courses.edx.org/certificates/52c190127cb74a39bb38aae42313339c"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
+          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/mit.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
+          <a target='_blank' rel='noreferrer' href="https://courses.edx.org/certificates/52c190127cb74a39bb38aae42313339c"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
           </div>
          
         </div>
@@ -339,9 +339,9 @@ function App() {
       <div class="container">
       <h3 className='display-5 text-center mt-3 mb-3'>Get in touch</h3>
       <div>
-        <a target='blank' href="https://github.com/Ashish4793"><img className='social-icon' width={30} src="../assets/img/social/github-color.svg" alt="github" /></a>
-        <a target='blank' href="https://www.linkedin.com/in/ashishk4793/"><img className='social-icon' width={30} src="../assets/img/social/linkedin-color.svg" alt="linkedin" /></a>
-        <a target='blank' href="https://twitter.com/AshishK4793"><img className='social-icon' width={30} src="../assets/img/social/x-color.svg" alt="x" /></a>
+        <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793"><img className='social-icon' width={30} src="../assets/img/social/github-color.svg" alt="github" /></a>
+        <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/ashishk4793/"><img className='social-icon' width={30} src="../assets/img/social/linkedin-color.svg" alt="linkedin" /></a>
+        <a target='_blank' rel='noreferrer' href="https://twitter.com/AshishK4793"><img className='social-icon' width={30} src="../assets/img/social/x-color.svg" alt="x" /></a>
       </div>
 
       <p className='mt-3' ><img width="35" height="35" src="https://img.icons8.com/fluency/35/mail--v1.png" alt="mail--v1"/> ashishk1063@outlook.com</p>
