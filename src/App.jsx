@@ -7,6 +7,8 @@ import skills from './skills';
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Typewriter from 'typewriter-effect';
+
 
 function App() {
   useEffect(() => {
@@ -136,9 +138,16 @@ function App() {
           <img width={250} src="https://img.freepik.com/free-photo/view-3d-man-holding-coffee-cup-showing-thumbs-up_23-2150709926.jpg?t=st=1695391518~exp=1695395118~hmac=5ba223a821751814edcd02ad9aa5c713a8216c9ed574531810702363efe53cce&w=1060" className="rounded-circle mt-3 mb-3"
             alt="Avatar" />
 
-          <h2 className='display-3 head1'>Hey,</h2>
+          <h2 className='display-4 head1'>Hey,</h2>
+          
           <h1 className='display-2 head2'>I'm Ashish Kumar.</h1>
-          <span className='display-6'>A Full-Stack Web Developer</span>
+          <h2 className='typewriter'><Typewriter
+  options={{
+    strings: ['A Full Stack Developer', 'A Cloud Enthusiast'],
+    autoStart: true,
+    loop: true,
+  }}
+/></h2>
         </div>
       </section>
 
@@ -344,7 +353,7 @@ function App() {
         <a target='_blank' rel='noreferrer' href="https://twitter.com/AshishK4793"><img className='social-icon' width={30} src="../assets/img/social/x-color.svg" alt="x" /></a>
       </div>
 
-      <p className='mt-3' ><img width="35" height="35" src="https://img.icons8.com/fluency/35/mail--v1.png" alt="mail--v1"/> ashishk1063@outlook.com</p>
+      <p className='mt-3' ><img width="35" height="35" src="../assets/img/social/mail.svg" alt="mail--v1"/> ashishku1063@outlook.com</p>
       <p className='copyright'>© {new Date().getFullYear()}, Ashish Kumar. All rights reserved.</p>
 
       </div>
