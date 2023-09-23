@@ -81,6 +81,15 @@
   transform: scale(1.07);
 }
 
+.social-icon{
+  transition: all 0.3s;
+}
+
+.social-icon:hover{
+  transform: scale(1.15);
+}
+
+
 .readmore-btn{
   text-decoration: none;
 }
