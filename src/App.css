@@ -73,6 +73,14 @@
   margin-bottom: 20px;
 }
 
+.card{
+  transition: all 0.3s;
+}
+
+.card:hover{
+  transform: scale(1.07);
+}
+
 .readmore-btn{
   text-decoration: none;
 }
