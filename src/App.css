@@ -98,6 +98,15 @@
   font-weight: 600;
 }
 
+.skill{
+  transition: all 0.3s;
+}
+
+.skill:hover{
+  transform: scale(1.10);
+  font-weight: 600;
+}
+
 
 .readmore-btn{
   text-decoration: none;
