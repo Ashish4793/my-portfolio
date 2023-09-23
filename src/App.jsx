@@ -135,7 +135,7 @@ function App() {
       <Navbar />
       <section  id='start'>
         <div data-aos="fade-in">
-          <img width={250} src="https://img.freepik.com/free-photo/view-3d-man-holding-coffee-cup-showing-thumbs-up_23-2150709926.jpg?t=st=1695391518~exp=1695395118~hmac=5ba223a821751814edcd02ad9aa5c713a8216c9ed574531810702363efe53cce&w=1060" className="rounded-circle mt-3 mb-3"
+          <img width={250} src="../assets/img/avatar.png" className="rounded-circle avatar mt-3 mb-3"
             alt="Avatar" />
 
           <h2 className='display-4 head1'>Hey,</h2>
