@@ -89,6 +89,15 @@
   transform: scale(1.15);
 }
 
+.nav-link{
+  transition: all 0.3s;
+}
+
+.nav-link:hover{
+  transform: scale(1.07);
+  font-weight: 600;
+}
+
 
 .readmore-btn{
   text-decoration: none;
