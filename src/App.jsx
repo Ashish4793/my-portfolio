@@ -353,7 +353,7 @@ function App() {
         <a target='_blank' rel='noreferrer' href="https://twitter.com/AshishK4793"><img className='social-icon' width={30} src="../assets/img/social/x-color.svg" alt="x" /></a>
       </div>
 
-      <p className='mt-3' ><img width="35" height="35" src="../assets/img/social/mail.svg" alt="mail--v1"/> ashishku1063@outlook.com</p>
+      <p className='mt-3' ><img className='mail' width="25" height="25" src="../assets/img/social/mail.svg" alt="mail--v1"/> ashishku1063@outlook.com</p>
       <p className='copyright'>© {new Date().getFullYear()}, Ashish Kumar. All rights reserved.</p>
 
       </div>
