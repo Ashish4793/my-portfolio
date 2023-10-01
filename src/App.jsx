@@ -47,11 +47,12 @@ function App() {
 <li>Users can book seats on different routes.</li>
   <li>Users can manage and cancel thier bookings.</li>
   <li>Fully working payment gateway integration.</li>
-  <li>User authentication using Local(username + password) and Google-OAuth Strategy.</li>
+  <li>User authentication using Local (username + password) and Google-OAuth Strategy.</li>
   <li>Seats are blocked to avoid same seat bookings. Incase the payment fails or user drops the booking seats are released after 10 mins.</li>
   <li>E-Mail functionalities to send booking confirmations. </li>
-  <li>Fully working payment gateway integration.</li>
-  <li>Hosted on AWS EC2 and AWS S3 is used to store invoices.</li>
+  <li>Cron jobs to update data real time</li>
+  <li>AWS S3 is used to store and retrieve invoices</li>
+  <li>Hosted on AWS EC2.</li>
 </ul>
 <a target='_blank' rel='noreferrer' style={{color : 'black'}} href="https://eazybus.site">Website Link 🔗</a>
       </div>
@@ -143,7 +144,7 @@ function App() {
           <h1 className='display-2 head2'>I'm Ashish Kumar.</h1>
           <h2 className='typewriter'><Typewriter
   options={{
-    strings: ['A Full Stack Developer', 'A Cloud Enthusiast'],
+    strings: ['A Full Stack Web Developer', 'A Cloud Enthusiast'],
     autoStart: true,
     loop: true,
   }}
@@ -154,7 +155,7 @@ function App() {
       <section id='about-me'>
         <div data-aos='fade-up' className='container'>
           <h3 className='display-5 mb-3'>About Me</h3>
-          <p className='about text-center'>
+          <p className='about'>
             I'm Ashish Kumar, a full-stack web developer pursuing my Bachelor of Technology in CSE (Cloud Computing and Automation) at Vellore Institute of Technology - Bhopal. I'm deeply passionate about MERN Stack and AWS, and I'm actively seeking internship opportunities in backend roles to gain hands-on experience and make a meaningful impact.
           </p>
         </div>

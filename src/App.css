@@ -29,6 +29,8 @@
 .about{
   margin-top: 1rem;
   font-size: 1.2rem;
+  text-align: justify;
+  padding: 20px;
 }
 
 .mail{
