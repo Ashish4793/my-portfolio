@@ -292,6 +292,21 @@ function App() {
       </div>
     </div>
 
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch">
+    <div class="card shadow bg-light">
+      <img src="../assets/img/certificate/aws-academy.webp" class="card-img-top" alt="udemy_certficate" />
+
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">AWS Academy Cloud Foundations</h5>
+          <div className='text-center'>
+          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/aws-academy.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
+          <a target='_blank' rel='noreferrer' href="https://www.credly.com/badges/aa46c58e-9bd9-4ee3-b223-80ab0245ffe9"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
     <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4  d-flex align-items-stretch">
     <div class="card shadow bg-light">
       <img src="../assets/img/certificate/coursera.webp" class="card-img-top" alt="udemy_certficate" />
@@ -322,20 +337,7 @@ function App() {
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch">
-    <div class="card shadow bg-light">
-      <img src="../assets/img/certificate/mit.webp" class="card-img-top" alt="udemy_certficate" />
-
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Introduction to Computer Science and Programming Using Python</h5>
-          <div className='text-center'>
-          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/mit.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='_blank' rel='noreferrer' href="https://courses.edx.org/certificates/52c190127cb74a39bb38aae42313339c"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
-          </div>
-         
-        </div>
-      </div>
-    </div>
+    
   </div>
 </div>
 
