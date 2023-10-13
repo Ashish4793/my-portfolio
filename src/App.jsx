@@ -135,6 +135,9 @@ function App() {
     <div className='App'>
       <Navbar />
       <section  id='start'>
+      <div className="alert alert-success mx-auto w-50" role="alert">
+  Newer version available. Please click <a href="https://ashishh-kumar.netlify.app/">here</a> to visit
+</div>
         <div data-aos="fade-in">
           <img width={250} src="../assets/img/avatar.png" className="rounded-circle avatar mt-3 mb-3"
             alt="Avatar" />
