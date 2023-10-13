@@ -36,7 +36,7 @@ function App() {
     loop: true,
   }}
 /></h2>
-<div className="alert alert-danger w-50 mx-auto mt-5 mb-5" role="alert">
+<div className="alert alert-danger mx-auto mt-5 mb-5" role="alert">
   This version of the website has been removed <br></br>
   Please click <a href="https://ashishh-kumar.netlify.app/">here</a> to visit updated website
 </div>
