@@ -2,8 +2,7 @@ import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
-import Navbar from './navbar';
-import skills from './skills';
+
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -17,127 +16,12 @@ function App() {
   return (
     
 <div>
-<div id='eazybusModal' class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title fw-bold">EazyBus</h3>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>A bus booking website with a lot of features. Users can book seats,manage and cancel their bookings. Integrated with Razorpay and Stripe Payment Gateway.</p>
-        <h5 className='mb-3'>Built with 🚀</h5>
-        <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>Bootstrap</li>
-  <li>Node.js</li>
-  <li>Express.js</li>
-  <li>Mongoose ODM</li>
-  <li>MongoDB</li>
-  <li>jQuery</li>
-  <li>Passport.js</li>
-  <li>Nginx</li>
-  <li>Stripe</li>
-  <li>Razorpay PG</li>
-</ul>
-<h5 className='mb-3'>Functionalities ⚙️</h5>
-<ul>
-<li>Users can book seats on different routes.</li>
-  <li>Users can manage and cancel thier bookings.</li>
-  <li>Fully working payment gateway integration.</li>
-  <li>User authentication using Local (username + password) and Google-OAuth Strategy.</li>
-  <li>Seats are blocked to avoid same seat bookings. Incase the payment fails or user drops the booking seats are released after 10 mins.</li>
-  <li>E-Mail functionalities to send booking confirmations. </li>
-  <li>Cron jobs to update data real time</li>
-  <li>AWS S3 is used to store and retrieve invoices</li>
-  <li>Hosted on AWS EC2.</li>
-</ul>
-<a target='_blank' rel='noreferrer' style={{color : 'black'}} href="https://eazybus.site">Website Link 🔗</a>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id='streamscanModal' class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title fw-bold">StreamScan</h3>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>StreamScan helps you find the streaming availability of movies and tv shows. Uses OMDb and Streaming Availability API.</p>
-        <h5 className='mb-3'>Built with 🚀</h5>
-        <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>Bootstrap</li>
-  <li>React.js</li>
-  <li><a target='_blank' rel='noreferrer' className='readmore-btn' href="https://www.omdbapi.com/">OMDb API</a></li>
-  <li><a target='_blank' rel='noreferrer' className='readmore-btn' href="https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/details">Streaming Availability API</a></li>
-
-</ul>
-<h5 className='mb-3'>Functionalities ⚙️</h5>
-<ul>
-<li>Users can search for movies and tv shows.</li>
-  <li>Users can view the streaming availability of a particular movie or tv show.</li>
-  <li>Users can also get other information such as Release Year, Genre, Cast, IMDb Ratings, Number of Seasons(Tv Shows).</li>
-</ul>
-<a target='_blank' rel='noreferrer' style={{color : 'black'}} href="https://streamscan.netlify.app/">Website Link 🔗</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id='newsgModal' class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title fw-bold">GNews</h3>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>A basic news app that shows latest news built using GNews API. Users can also search news using a keyword or category wise.</p>
-        <h5 className='mb-3'>Built with 🚀</h5>
-        <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>Bootstrap</li>
-  <li>Node.js</li>
-  <li>Express.js</li>
-  <li>Mongoose ODM</li>
-  <li>MongoDB</li>
-  <li>jQuery</li>
-  <li>Passport.js</li>
-  <li><a target='_blank' rel='noreferrer' className='readmore-btn' href="https://gnews.io/">GNews API</a></li>
-</ul>
-<h5 className='mb-3'>Functionalities ⚙️</h5>
-<ul>
-<li>Users can view latest news from different sources.</li>
-  <li>Users can search news using a keyword.</li>
-  <li>Users can browse news category-wise.</li>
-  <li>Users can bookmark a article to read it later.</li>
-  <li>User authentication using Local(username + password) , Google-OAuth and Facebook OAuth Strategy.</li>
-  <li>Multiple Language Support</li>
-  <li>Multiple Countries Support</li>
-</ul>
-<a target='_blank' rel='noreferrer' style={{color : 'black'}} href="https://news-app.cyclic.app/">Website Link 🔗</a>
-      </div>
-    </div>
-  </div>
-</div>
 
 
     <div className='App'>
-      <Navbar />
-      <section  id='start'>
-      <div className="alert alert-success mx-auto w-50" role="alert">
-  Newer version available. Please click <a href="https://ashishh-kumar.netlify.app/">here</a> to visit
-</div>
+      <section className='mt-5' id='start'>
+
         <div data-aos="fade-in">
           <img width={250} src="../assets/img/avatar.png" className="rounded-circle avatar mt-3 mb-3"
             alt="Avatar" />
@@ -152,219 +36,15 @@ function App() {
     loop: true,
   }}
 /></h2>
-        </div>
-      </section>
-
-      <section id='about-me'>
-        <div data-aos='fade-up' className='container'>
-          <h3 className='display-5 mb-3'>About Me</h3>
-          <p className='about'>
-            I'm Ashish Kumar, a full-stack web developer pursuing my Bachelor of Technology in CSE (Cloud Computing and Automation) at Vellore Institute of Technology - Bhopal. I'm deeply passionate about MERN Stack and AWS, and I'm actively seeking internship opportunities in backend roles to gain hands-on experience and make a meaningful impact.
-          </p>
-        </div>
-
-      </section>
-      <section  id='skills'>
-        <div data-aos='fade-up' class='container mb-1'>
-          <h3 class='display-5'>Skills</h3>
-          <div class="skills-container">
-            {skills.map((skill, index) => (
-              <div className="skill" key={index}>
-                <img width="80" height="80" src={skill.iconURL} alt={skill.name} />
-                <p>{skill.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <section className='mt-5' id='projects'>
-    <div data-aos='fade-up' className='container mb-1'>
-      <h3 className='display-5 text-center mt-5 mb-5'>Projects</h3>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-12 d-flex align-items-stretch">
-            <div class="card bg-light shadow mb-5">
-              <img src="../assets/img/eazybus.webp" class="card-img-top" alt="..." />
-
-              <div class="card-body d-flex flex-column">
-                <h4 class="card-title">EazyBus</h4>
-                <p class="card-text">A bus booking website with a lot of features. Users can book seats,manage and cancel their bookings.Integrated with Razorpay and Stripe Payment Gateway<a href='' className='readmore-btn' type='button' data-bs-toggle="modal" data-bs-target="#eazybusModal">...read more</a></p>
-                <div className='text-center'>
-                  <div className='techusedDiv'>
-                    <img className='techused' alt='html' src='../assets/img/html-5.svg' width='30'></img>
-                    <img className='techused' alt='css' src='../assets/img/css-3.svg' width='30'></img>
-                    <img className='techused' alt='js' src='../assets/img/javascript.svg' width='30'></img>
-                    <img className='techused' alt='bootstrap' src='../assets/img/bootstrap.svg' width='30'></img>
-                    <img className='techused' alt='nodejs' src='../assets/img/nodejs.svg' width='30'></img>
-                    <img className='techused' alt='express' src='../assets/img/express-color.svg' width='30'></img>
-                    <img className='techused' alt='mongodb' src='../assets/img/mongodb-color.svg' width='30'></img>
-                    <img className='techused' alt='aws' src='../assets/img/aws.svg' width='30'></img>
-                    <img className='techused' alt='stripe' src='../assets/img/stripe.svg' width='40'></img>
-                    <img className='techused' alt='razorpay' src='../assets/img/razorpay-color.svg' width='40'></img>
-
-                  </div>
-                <a target='_blank' rel='noreferrer' href="https://eazybus.site"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
-                <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793/eazybus"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-md-4 col-12 d-flex align-items-stretch">
-          <div class="card bg-light shadow mb-5">
-              <img src="../assets/img/streamscan.webp" class="card-img-top" alt="..." />
-
-              <div class="card-body d-flex flex-column">
-                <h4 class="card-title">StreamScan</h4>
-                <p class="card-text">StreamScan helps you find the streaming availability of movies and tv shows. Uses OMDb and Streaming Availability API<a href='' className='readmore-btn' type='button' data-bs-toggle="modal" data-bs-target="#streamscanModal">...read more</a></p>
-                <div className='text-center'>
-                  <div className='techusedDiv mt-3'>
-                    <img className='techused' alt='html' src='../assets/img/html-5.svg' width='30'></img>
-                    <img className='techused' alt='css' src='../assets/img/css-3.svg' width='30'></img>
-                    <img className='techused' alt='js' src='../assets/img/javascript.svg' width='30'></img>
-                    <img className='techused' alt='bootstrap' src='../assets/img/bootstrap.svg' width='30'></img>
-                    <img className='techused' alt='react' src='../assets/img/react.svg' width='30'></img>
-
-                  </div>
-                <a target='_blank' rel='noreferrer' href="https://streamscan.netlify.app/"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
-                <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793/streamscan"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-12 d-flex align-items-stretch">
-          <div class="card bg-light shadow mb-5">
-              <img src="../assets/img/newsg.webp" class="card-img-top" alt="..." />
-
-              <div class="card-body d-flex flex-column">
-                <h4 class="card-title">GNews</h4>
-                <p class="card-text">A basic news app that shows latest news built using GNews API. Users can also search news using a keyword or category wise<a href='' className='readmore-btn' type='button' data-bs-toggle="modal" data-bs-target="#newsgModal">...read more</a></p>
-                <div className='text-center'>
-                  <div className='techusedDiv mt-3'>
-                    <img className='techused' alt='html' src='../assets/img/html-5.svg' width='30'></img>
-                    <img className='techused' alt='css' src='../assets/img/css-3.svg' width='30'></img>
-                    <img className='techused' alt='js' src='../assets/img/javascript.svg' width='30'></img>
-                    <img className='techused' alt='bootstrap' src='../assets/img/bootstrap.svg' width='30'></img>
-                    <img className='techused' alt='nodejs' src='../assets/img/nodejs.svg' width='30'></img>
-                    <img className='techused' alt='express' src='../assets/img/express-color.svg' width='30'></img>
-                    <img className='techused' alt='mongodb' src='../assets/img/mongodb-color.svg' width='30'></img>
-                    <img className='techused' alt='passportjs' src='../assets/img/passport-color.svg' width='30'></img>
-
-                  </div>
-                <a target='_blank' rel='noreferrer' href="https://news-app.cyclic.app/"><btn className="btn shadow btn-sm btn-dark pb">Demo <BoxArrowUpRight color='white' /></btn></a>
-                <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793/news-app/"><btn className="btn shadow btn-sm btn-dark pb">GitHub <BoxArrowUpRight color='white' /></btn></a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-  <section id='certificates'>
-    <div data-aos='fade-up' className='container mt-5 mb-1'>
-      <h3 className='display-5 text-center mt-5 mb-5'>Certifications</h3>
-
-      <div class="container">
-  <div class="row">
-    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4  d-flex align-items-stretch">
-      <div class="card shadow bg-light">
-      <img src="../assets/img/certificate/udemy.webp" class="card-img-top" alt="udemy_certficate" />
-
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">The Complete 2023 Web Development Bootcamp</h5>
-          <div className='text-center'>
-          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/udemy.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='_blank' rel='noreferrer' href="https://www.udemy.com/certificate/UC-73073573-4878-4375-adee-21e3a305ac33/"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
-          </div>
-         
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch">
-    <div class="card shadow bg-light">
-      <img src="../assets/img/certificate/aws-academy.webp" class="card-img-top" alt="udemy_certficate" />
-
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">AWS Academy Cloud Foundations</h5>
-          <div className='text-center'>
-          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/aws-academy.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='_blank' rel='noreferrer' href="https://www.credly.com/badges/aa46c58e-9bd9-4ee3-b223-80ab0245ffe9"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
-          </div>
-         
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4  d-flex align-items-stretch">
-    <div class="card shadow bg-light">
-      <img src="../assets/img/certificate/coursera.webp" class="card-img-top" alt="udemy_certficate" />
-
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">HTML, CSS, and Javascript for Web Developers</h5>
-          <div className='text-center'>
-          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/coursera.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='_blank' rel='noreferrer' href="https://www.coursera.org/account/accomplishments/verify/82JV8JFF3MF7"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
-          </div>
-         
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 d-flex align-items-stretch">
-    <div class="card w-100 shadow bg-light">
-      <img src="../assets/img/certificate/hackerRank.webp" class="card-img-top" alt="udemy_certficate" />
-
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Problem Solving - Basic</h5>
-          <div className='text-center'>
-          <a target='_blank' rel='noreferrer' href="../assets/img/certificate/hackerRank.webp"><btn className="btn shadow btn-sm btn-dark pb">View</btn></a>
-          <a target='_blank' rel='noreferrer' href="https://www.hackerrank.com/certificates/f55ada9e1e1b"><btn className="btn shadow btn-sm btn-dark pb">Link</btn></a>
-          </div>
-         
-        </div>
-      </div>
-    </div>
-
-    
-  </div>
+<div className="alert alert-danger w-50 mx-auto mt-5 mb-5" role="alert">
+  This version of the website has been removed <br></br>
+  Please click <a href="https://ashishh-kumar.netlify.app/">here</a> to visit updated website
 </div>
+        </div>
+      </section>
 
 
-    </div>
-  </section>
-
-
-  <section className='text-center mt-5' id='contact'>
-    <footer class="footer mt-auto py-3 bg-black">
-      <div class="container">
-      <h3 className='display-5 text-center mt-3 mb-3'>Get in touch</h3>
-      <div>
-        <a target='_blank' rel='noreferrer' href="https://github.com/Ashish4793"><img className='social-icon' width={30} src="../assets/img/social/github-color.svg" alt="github" /></a>
-        <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/ashishk4793/"><img className='social-icon' width={30} src="../assets/img/social/linkedin-color.svg" alt="linkedin" /></a>
-        <a target='_blank' rel='noreferrer' href="https://twitter.com/AshishK4793"><img className='social-icon' width={30} src="../assets/img/social/x-color.svg" alt="x" /></a>
-      </div>
-
-      <p className='mt-3' ><img className='mail' width="25" height="25" src="../assets/img/social/mail.svg" alt="mail--v1"/> ashishku1063@outlook.com</p>
-      <p className='copyright'>© {new Date().getFullYear()}, Ashish Kumar. All rights reserved.</p>
-
-      </div>
-    </footer>
-  </section>
+</div>
 </div>
 
   );
